@@ -30,20 +30,35 @@ instantiate
 # Java topics and OOP concepts
 
 encapsulation
+* **Encapsulation**: The boundary around a class such that outside that boundary that data is hidden and only some of the functions are known. In Java this concept is implemented with the
+public, protected and private keywords. 
 
 inheritance
+* **Inheritance**: When a class (the subclass) automatically acquires the fields and methods of another class (the superclass), 
+allowing code reuse and the creation of hierarchical relationships. In Java, this is done using the _extends_ keyword.
 
 "lookup rules" for a running program
+* How a running program decides which variable or function to use.
 
 interface
+* **Interface:** in Java defines a contract for what a class can do, without specifying how it does it.
 
 abstract class, abstract method
+* **Abstract method** A method that does not have an implementation (i.e., it only has a signature).
+* **Abstract classes** Classes that are not meant to be initialized directly. 
+* If a class extends an abstract class; then, it has to implement all the abstract functions or be declared an abstract class. 
 
 generics
+* **Generics** A way for programmers to generalize the type that a class or method works with. They allow us to reuse the same 
+code for various input types without needing to cast things constantly. For example, public class Box<T>
 
 "loose coupling, high cohesion"
+* **Loose coupling:** Classes depend on each other as little as possible. (Related to Dependency Inversion Principle).
+* **High cohesion:** Classes single well focused responsibility. (Think Single Responsibility Principle).
 
 polymorphism
+* **Polymorphism** The ability of an object to take on many forms. In Java, this means that an object can be treated as an instance of its own class, 
+any superclass, or any interface it implements
 
 UML (unified modelling language)
 
