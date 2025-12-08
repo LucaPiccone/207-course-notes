@@ -63,7 +63,8 @@ any superclass, or any interface it implements
 
 **composition of classes**: How classes use other classes inside their methods.
 
-**dependency**: Anything a class or module needs to run.
+**dependency**: Anything a class or module needs to run. ClassA is dependent on ClassB if change in code to ClassB required change in code in ClassA.
+If a class uses the _new_ keyword, it is dependent on the other class.
 
 **Dependency Injection**: A design pattern where an object receives its dependencies from an external source. For example define the dependency
 as an instance variable through the constructor rather than writing API api = new API(); 
